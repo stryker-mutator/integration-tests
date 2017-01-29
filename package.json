@@ -1,0 +1,42 @@
+{
+  "name": "integration-tests",
+  "version": "0.1.0",
+  "description": "A repository to house our cross-module integration tests",
+  "scripts": {
+    "test": "grunt test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+ssh://git@github.com/stryker-mutator/integration-tests.git"
+  },
+  "keywords": [
+    "stryker",
+    "seed"
+  ],
+  "author": "nicojs",
+  "license": "Apache-2.0",
+  "bugs": {
+    "url": "https://github.com/stryker-mutator/integration-tests/issues"
+  },
+  "homepage": "https://github.com/stryker-mutator/integration-tests#readme",
+  "devDependencies": {
+    "@types/chai-as-promised": "0.0.29",
+    "@types/lodash": "^4.14.37",
+    "@types/mocha": "^2.2.32",
+    "@types/node": "^7.0.4",
+    "chai": "^3.5.0",
+    "chai-as-promised": "^6.0.0",
+    "grunt": "^1.0.1",
+    "grunt-contrib-clean": "^1.0.0",
+    "grunt-mocha-istanbul": "^5.0.2",
+    "grunt-mocha-test": "^0.13.2",
+    "grunt-npm": "0.0.2",
+    "grunt-ts": "^6.0.0-beta.3",
+    "grunt-tslint": "^4.0.0",
+    "load-grunt-tasks": "^3.5.2",
+    "mocha": "^3.1.0",
+    "stryker-api": "^0.4.1",
+    "tslint": "^4.4.2",
+    "typescript": "^2.0.3"
+  }
+}
